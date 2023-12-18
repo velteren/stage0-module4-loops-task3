@@ -10,7 +10,7 @@ public class RangeSum {
         } else if (Math.abs(firstBoarder) == Math.abs(secondBoarder)) {
             result = 0;
         } else {
-            for (int i = min; i < max; i++) {
+            for (int i = min; i <= max; i++) {
                 result += i;
             }
         }
