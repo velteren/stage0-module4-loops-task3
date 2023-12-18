@@ -5,7 +5,7 @@ public class DigitsSum {
         int result = 0;
         int sum = 0;
         t = Math.abs(t);
-        for (int i = t; i > 0; i /= 10) {
+        for (int i = t; i >= 0; i /= 10) {
             result = i % 10;
             sum += result;
         }
